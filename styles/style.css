@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+.navbar {
+  padding: 20px 4vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_logo {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #97deff;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+}
+.logo_text {
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+.navbar_link {
+  padding: 5px 0;
+  margin-left: 20px;
+  color: #97deff;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+}
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 4vw;
+}
+.greeting_text {
+  margin-right: 30px;
+}
+.greeting_text h1 {
+  font-size: 48px;
+}
+.greeting_text p {
+  margin: 30px 0;
+}
+.greeting_image {
+  max-width: 100%;
+}
+.cta_button {
+  padding: 20px 60px;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #fc2947;
+  color: #fff;
+  cursor: pointer;
+  transition: all 600ms;
+}
+.cta_button:hover {
+  background-color: #fff;
+  color: #e11299;
+  border: 1px solid #e11299;
+}
+.offer {
+  padding: 55px 4vw;
+}
+.section_title {
+  font-size: 48px;
+  margin: 33px auto;
+  border-top: 4px solid #fc2947;
+  width: max-content;
+  padding: 20px;
+}
+.offer_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.offer_card {
+  width: 320px;
+  background-color: #fff;
+  border: 1px solid #fc2947;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.offer_card img {
+  margin-bottom: 48%;
+  width: 100%;
+}
+.offer_card h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.offer_card p {
+  text-align: center;
+}
+.navbar_logo img {
+  width: 100%;
+}
+.log {
+  width: 20%;
+}
+.greeting_image {
+  width: 50%;
+}
